@@ -1,7 +1,11 @@
 import "./Footer.css";
 
 function Footer() {
-   return null;
+   return (
+      <footer>
+         Perfume Shop 2022
+      </footer>
+   );
 }
 
 export default Footer;
