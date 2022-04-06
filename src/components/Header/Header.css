@@ -10,10 +10,13 @@
    /* text-shadow: 0 0 1px white; */
    background-position: center;
    text-align: right;
-   font-size: 1.5rem;
+   font-size: 2rem;
 }
 .Header h1 {
    margin: 0;
    font-family: 'Dancing Script', cursive;
    font-size: 7rem;
+}
+.Header p {
+   font-family: 'Dancing Script', cursive;
 }
