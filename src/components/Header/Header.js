@@ -9,9 +9,9 @@ function Header() {
    return (
       <header className="Header" style={style}>
          <head>
-         <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet"/>
+         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet"/>
          </head>
-         <h1>Hello world</h1>
+         <h1>Perfumery</h1>
          <p>This is an internet shop</p>
       </header>
    );
