@@ -7,8 +7,13 @@
    padding: 1rem;
    background-size: cover;
    color: white;
-   text-shadow: 0 0 15px white;
+   /* text-shadow: 0 0 1px white; */
+   background-position: center;
+   text-align: right;
+   font-size: 2rem;
 }
 .Header h1 {
    margin: 0;
+   font-family: 'Rubik Moonrocks', cursive;
+   font-size: 4.5rem;
 }
