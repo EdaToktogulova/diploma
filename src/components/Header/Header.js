@@ -9,10 +9,10 @@ function Header() {
    return (
       <header className="Header" style={style}>
          <head>
-         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet"/>
+         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"/>
          </head>
          <h1>Dream in a bottle </h1>
-         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"/>
+         <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet"/>
          <p>Le parfume est la  musique du corps</p>
       </header>
    );
