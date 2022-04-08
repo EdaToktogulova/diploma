@@ -1,21 +1,21 @@
 .Header {
    min-height: 60vh;
-   background-color: aliceblue;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   padding: 2rem;
+   padding: 2.5rem;
    background-size: cover;
-   color: rgb(82, 28, 79);
+   color: rgb(153, 26, 147);
    /* text-shadow: 0 0 1px white; */
    background-position: center;
    text-align: center;
-   font-size: 2rem;
+   font-size: 2.2rem;
 }
 .Header h1 {
    margin: 0;
-   font-family: 'Dancing Script', cursive;
-   font-size: 7.5rem;
+   font-family: 'Cinzel', serif;
+   font-size: 6rem;
+   justify-content: baseline;
 }
 .Header p {
    font-family: 'Lemonada', cursive;
