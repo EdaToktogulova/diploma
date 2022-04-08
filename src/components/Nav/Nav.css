@@ -3,7 +3,7 @@
    align-items: center;
    justify-content: space-between;
    background-color: rgb(230, 177, 212);
-   color: rgb(128, 95, 128);
+   color: rgb(100, 84, 100);
    padding: 0 1rem;
    font-size: 2rem;
 
@@ -17,7 +17,7 @@
 .Nav a{
    display: block;
    padding: .5rem 1rem;
-   color: rgb(128, 95, 128);
+   color: rgb(100, 84, 100);
    font-size: .8rem;
    text-decoration: none;
    font-size: 20px;
