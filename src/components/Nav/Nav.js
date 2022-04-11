@@ -1,3 +1,4 @@
+import Logo from "../ui/Logo/Logo";
 import "./Nav.css";
 
 function Nav() {
@@ -6,7 +7,7 @@ function Nav() {
          <head>
          <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"/>
          </head>
-         <div>Perfume Shop</div>
+         <Logo/>
          <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/">Categories</a></li>
