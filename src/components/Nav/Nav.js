@@ -10,11 +10,11 @@ function Nav() {
          </head>
          <Logo/>
          <ul>
-            <NavItem url="/">Home</NavItem>
+            <NavItem url="/" active>Home</NavItem>
             <NavItem url="/">Categories</NavItem>
             <NavItem url="/" >About</NavItem>
             <NavItem url="/">Products</NavItem>
-            <NavItem url="/"active>Contacts</NavItem>
+            <NavItem url="/">Contacts</NavItem>
          </ul>
       </nav>
    );
