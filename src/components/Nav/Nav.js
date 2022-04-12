@@ -1,6 +1,6 @@
 import Logo from "../ui/Logo/Logo";
 import "./Nav.css";
-import NavItem from "./Navitem/Navitem";
+import NavItem from "./NavItem/NavItem";
 
 function Nav() {
    return (
@@ -12,9 +12,9 @@ function Nav() {
          <ul>
             <NavItem url="/">Home</NavItem>
             <NavItem url="/">Categories</NavItem>
-            <NavItem url="/" active>About</NavItem>
+            <NavItem url="/" >About</NavItem>
             <NavItem url="/">Products</NavItem>
-            <NavItem url="/">Contacts</NavItem>
+            <NavItem url="/"active>Contacts</NavItem>
          </ul>
       </nav>
    );
