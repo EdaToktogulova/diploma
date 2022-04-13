@@ -5,7 +5,8 @@
    background-color: rgb(230, 177, 212);
    color: rgb(56, 47, 56);
    padding: 0 1rem;
-   font-size: 2rem;
+   font-size: 3rem;
+   font-weight: bold;
 
 }
 .Nav ul {
@@ -14,6 +15,6 @@
    margin: 0;
    display: flex;
 }
-.Nav div {
+.Nav {
    font-family: 'Dancing Script', cursive;
 }
