@@ -1,6 +1,6 @@
 import Logo from "../ui/Logo/Logo";
 import "./Nav.css";
-import NavItem from "../Nav/NavItem/NavItem"
+import NavItem from "./NavItem/NavItem"
 
 function Nav() {
    return (
