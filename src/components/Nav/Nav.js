@@ -1,6 +1,6 @@
 import Logo from "../ui/Logo/Logo";
 import "./Nav.css";
-// import NavItem from "./NavItem/NavItem";
+import NavItem from "../Nav/NavItem/NavItem"
 
 function Nav() {
    return (
@@ -9,13 +9,13 @@ function Nav() {
          <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"/>
          </head>
          <Logo/>
-         {/* <ul>
+         <ul>
             <NavItem url="/" >Home</NavItem>
             <NavItem url="/categories">Categories</NavItem>
             <NavItem url="/about" >About</NavItem>
             <NavItem url="/products">Products</NavItem>
             <NavItem url="/contacts">Contacts</NavItem>
-         </ul> */}
+         </ul>
       </nav>
    );
 }
