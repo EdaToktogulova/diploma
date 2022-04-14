@@ -2,12 +2,11 @@
    display: flex;
    align-items: center;
    justify-content: space-between;
-   background-color: rgb(230, 177, 212);
-   color: rgb(56, 47, 56);
+   background-color: white;
+   color: rgb(236, 148, 214); 
    padding: 0 1rem;
    font-size: 3rem;
    font-weight: bold;
-
 }
 .Nav ul {
    list-style: none;
