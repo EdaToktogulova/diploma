@@ -12,7 +12,7 @@ import Products from "./pages/Products";
 
 
 function App() {
-  return (
+  return ( 
     <div className="App">
       <Nav />
       <Header />
