@@ -1,16 +1,18 @@
 .Nav {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
    background-color: rgb(255, 255, 255);
    color: black; 
    padding: 0 1rem;
    font-size: 3rem;
    font-weight: bold;
 }
+.Nav .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
 .Nav ul {
    list-style: none;
-   padding: 0 1.5rem;
+   padding: 0;
    margin: 0;
    display: flex;
 }
