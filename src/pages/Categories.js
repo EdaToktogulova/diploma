@@ -1,9 +1,15 @@
+import Header from "../components/Header/Header";
+import headerImage from "../assets/categories.jpeg";
+
 function Categories() {
    return (
-   <article>
-      <h1>This is categories page.</h1>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, fugiat laudantium iste quia sit deserunt soluta fugit quidem unde quisquam error necessitatibus nulla neque nemo? Eveniet dignissimos eaque fuga doloremque!</p>
-   </article>
+      <>
+         <Header
+            title="Welcome to our perfume shop" 
+            image={headerImage}>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, fugiat laudantium iste quia sit deserunt soluta fugit quidem unde quisquam error necessitatibus nulla neque nemo? Eveniet dignissimos eaque fuga doloremque!Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, fugiat laudantium iste quia sit deserunt soluta fugit quidem unde quisquam error necessitatibus nulla neque nemo? Eveniet dignissimos eaque fuga doloremque!
+         </Header>
+      </>
    );
 }
 
