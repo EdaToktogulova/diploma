@@ -4,7 +4,7 @@ function Header({ image, title, children }) {
    return (
       <header className="Header">
          
-         <img alt="text"src="{image}"/>
+         <img src={image} alt="text"/>
          <section>
          <h1>{title}</h1>
          <p>{children}</p>
