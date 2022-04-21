@@ -1,6 +1,6 @@
 .Header {
    position: relative;
-   margin-bottom: 5rem;
+   margin-bottom: 10rem;
 }
 .Header img {
    width: 100%;
@@ -14,13 +14,13 @@
 }
 .Header section {
    position: absolute;
-   bottom: -3rem;
-   right: 2rem;
-   max-width: 500px;
+   bottom: -8rem;
+   left: 2rem;
+   max-width: 600px;
    margin-left: 2rem;
 
 
-   background-color: white;
+   background-color: rgba(228, 222, 222, 0.404);
    padding: 0 2rem 0;
    border-radius: 2rem;
    font-size: 1.2rem;
@@ -28,5 +28,5 @@
    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 .Header h1 {
-   font-size: 2rem;
+   font-size: 1.8rem;
 }

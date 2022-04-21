@@ -10,5 +10,5 @@
    border-color: rgb(9, 14, 78);
 }
 .NavItem a:hover{
-   background-color: rgb(240, 227, 203);
+   background-color: lightgray;
 }
