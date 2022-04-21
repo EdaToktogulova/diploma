@@ -1,10 +1,10 @@
 .Header {
    position: relative;
-   margin-bottom: 9rem;
+   margin-bottom: 6rem;
 }
 .Header img {
    width: 100%;
-   height: 40vh;
+   height: 70vh;
    min-height: 380px;
    object-fit: cover;
    object-position: center;
@@ -14,8 +14,8 @@
 }
 .Header section {
    position: absolute;
-   bottom: -8rem;
-   left: 2rem;
+   bottom: -5rem;
+   left: 1rem;
    max-width: 600px;
    margin-left: 2rem;
 
