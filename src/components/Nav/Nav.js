@@ -1,23 +1,18 @@
-import Logo from "../ui/Logo/Logo";
-import "./Nav.css";
+import { useSelector } from "react-redux";
 import NavItem from "./NavItem/NavItem";
+import classes from "./Nav.css";
 
 function Nav() {
+   const isAuthenticated = useSelector(store => store.auth.idToken !== null);
+
    return (
-      <nav className="Nav">
-         <div className="container">
-         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"/>
-         <Logo/>
-         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"/>
-         <ul>
-            <NavItem url="/">Home</NavItem>
-            <NavItem url="/categories">Categories</NavItem>
-            <NavItem url="/about" >About</NavItem>
-            <NavItem url="/products">Products</NavItem>
-            <NavItem url="/contacts">Contacts</NavItem>
-         </ul>
-         </div>
-      </nav>
+      <ul className={classes.Nav}>
+         <NavItem url="/">Home</NavItem>
+         <NavItem url="/products">All products</NavItem>
+         <NavItem url="/contacts">Contacts</NavItem>
+         {isAuthenticated ? <NavItem url="/signout">Sign out</NavItem> : null}
+         {!isAuthenticated ? <NavItem url="/auth">Sign in</NavItem> : null}
+      </ul>
    );
 }
 

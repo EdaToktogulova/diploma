@@ -1,14 +1,18 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/categories.jpeg";
+import headerImage from "../assets/products.jpeg";
+import { getCategories } from "../data/categories";
+import CategoryList from "../components/CategoryList/CategoryList";
 
 function Categories() {
    return (
       <>
          <Header
-            title="Welcome to our perfume shop" 
+            title="Find something for yourself!"
             image={headerImage}>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, fugiat laudantium iste quia sit deserunt soluta fugit quidem unde quisquam error necessitatibus nulla neque nemo? Eveniet dignissimos eaque fuga doloremque!Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, fugiat laudantium iste quia sit deserunt soluta fugit quidem unde quisquam error necessitatibus nulla neque nemo? Eveniet dignissimos eaque fuga doloremque!
+            The fruits; cherries or berries, most commonly contain two stones with their flat sides together. A small percentage of cherries contain a single seed, instead of the usual two. This is called a "peaberry".
          </Header>
+
+         <CategoryList categories={getCategories()} />
       </>
    );
 }
