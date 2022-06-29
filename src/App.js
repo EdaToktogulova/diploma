@@ -11,6 +11,7 @@ import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import Auth from "./pages/Auth";
 import SignOut from "./pages/SignOut";
+import History from "./pages/History";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/signout" element={<SignOut />} />
+          <Route path="/history" element={<History />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
