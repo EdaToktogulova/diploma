@@ -12,6 +12,7 @@ import Checkout from "./pages/Checkout";
 import Auth from "./pages/Auth";
 import SignOut from "./pages/SignOut";
 
+
 function App() {
   return (
     <div className="App">
