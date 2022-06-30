@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
 import CartDisplay from "../components/CartDisplay/CartDisplay";
-// import { useEffect } from "react";
+import { useEffect } from "react";
 
 function Checkout() {
    const dispatch = useDispatch();
