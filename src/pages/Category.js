@@ -9,9 +9,9 @@ function Category() {
    const params = useParams();
    const category = getCategory(params.categoryId);
 
-   // if (!category) {
-   //    return null;
-   // }
+   if (!category) {
+      return null;
+   }
 
    return (
       <>
