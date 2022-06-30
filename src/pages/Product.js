@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import CartButton from "../components/CartButton/CartButton";
 import Header from "../components/Header/Header";
-import { getProduct } from "../data/products";
+// import { getProduct } from "../data/products";
 
 function Product() {
    const params = useParams();
