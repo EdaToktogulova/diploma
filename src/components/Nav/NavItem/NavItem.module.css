@@ -1,10 +1,13 @@
 .NavItem a {
-   display: block;
-   padding: 1rem 1.5rem;
-   color: white;
+   display: inline-block;
+   padding: 10px;
+   color: rgb(10, 8, 8);
    font-size: 1.2rem;
    text-decoration: none;
    border-bottom: 3px solid transparent;
+   text-transform: uppercase;
+   margin: .8rem 0;
+   padding: .5rem 1rem;
 }
 
 .NavItem .active {
