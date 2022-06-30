@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Drawer from "../Drawer/Drawer";
 import Footer from "../Footer/Footer";
-import Toolbar from "../Toolbar/Toolbar";
+import Toolbar from "../Toolbar/Toolbar"
 
 function Layout({ children }) {
    const [drawerOpen, setDrawerOpen] = useState(false);
