@@ -9,7 +9,7 @@ export default function CartButton({ productId }) {
       dispatch(add(productId));
    }
 
-   return (
-      <button className={classes.CartButton} onClick={onAddToCart}>Add to card</button>
-   );
+   // return (
+   //    <button className={classes.CartButton} onClick={onAddToCart}>Add to card</button>
+   // );
 }
