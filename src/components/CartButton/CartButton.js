@@ -2,6 +2,7 @@ import { useDispatch } from "react-redux";
 import { add } from "../../redux/cartSlice";
 import classes from "./CartButton.module.css"
 
+
 export default function CartButton({ productId }) {
    const dispatch = useDispatch();
 
