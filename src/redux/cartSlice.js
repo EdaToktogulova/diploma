@@ -8,7 +8,7 @@ export const checkout = createAsyncThunk('cart/checkout', async (order, thunkAPI
 });
 
 const cartSlice = createSlice({
-   name: "cart",
+   // name: "cart",
    initialState: {
       items: JSON.parse(localStorage.getItem('cartItems') ?? '{}'),
    },
