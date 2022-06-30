@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import { GrCart } from "react-icons/gr";
 
 export default function CartLink() {
    const number = useSelector(store => {
@@ -7,6 +8,6 @@ export default function CartLink() {
    });
 
    return (
-      <NavLink to="/cart">Cart ({number})</NavLink>
+      <NavLink to="/cart"><div><GrCart size={25} style={{ marginleft: '4px' }} /></div> ({number})</NavLink>
    );
 }
