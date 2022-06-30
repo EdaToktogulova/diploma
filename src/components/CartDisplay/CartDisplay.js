@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { getProducts } from "../../data/products";
 import CartItem from "../CartButton/CartItem/CartItem";
-import classes from "./CartDisplay.module.css";
+import "./CartDisplay.module.css";
 
 function CartDisplay({ actions }) {
    const items = useSelector(store => store.cart.items);
@@ -27,7 +27,7 @@ function CartDisplay({ actions }) {
    }
 
    return (
-      <div class={classes.CartDisplay}>
+      <div className="CarqtDisplay">
          {output}
          <hr />
          Total: ${total}
