@@ -1,7 +1,7 @@
 import Header from "../components/Header/Header";
 import image from "../assets/home.jpeg";
 import CartDisplay from "../components/CartDisplay/CartDisplay";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Cart() {
    return (
