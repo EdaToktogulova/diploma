@@ -5,7 +5,7 @@ import classes from "./CartDisplay.module.css";
 
 function CartDisplay({ actions }) {
    const items = useSelector(store => store.cart.items);
-   const products = getProducts();
+   // const products = getProducts();
 
    let total = 0;
    let output = products
