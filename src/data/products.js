@@ -1,69 +1,76 @@
 import productImage from "../assets/product.jpeg";
+import product2Image from "../assets/product2.jpeg";
+import product3Image from "../assets/product3.jpeg";
+import product4Image from "../assets/product4.jpeg";
+import product5Image from "../assets/product5.jpeg";
+import product6Image from "../assets/product6.jpeg";
+import product7Image from "../assets/product7.jpeg";
+import product8Image from "../assets/product8.jpeg";
 
 const products = [
    {
       image: productImage,
-      productId: "hazelnut",
-      categoryId: "coffee-beans",
-      title: "Hazelnut",
-      description: `When the fruit is ripe, it is almost always handpicked, using either "selective picking", where only the ripe fruit is removed, or "strip-picking", where all of the fruit is removed from a limb all at once. Selective picking is often used to produce higher quality coffee because the cherries are picked at their ripest. Strip-picking is indiscriminate and will harvest unripe, ripe, and over-ripe fruit. To improve quality after strip-picking, the harvest must be sorted.`,
-      price: 10,
-   },
-   {
-      image: productImage,
-      productId: "dark-roast",
-      categoryId: "coffee-beans",
-      title: "Dark roast",
-      description: `The Asian palm civet eats coffee berries and excretes the beans. Because the civet prefers the taste of the ripest cherries, the civet selectively harvests the cherries. Its digestive system then processes the beans by breaking down the mucilage and pulp surrounding the seed. Once the seeds are excreted by the civet, they can be harvested, processed and sold as a niche product. Once they are finally processed, these beans are called kopi luwak, and are often marketed as a rare and expensive coffee.`,
-      price: 12,
-   },
-   {
-      image: productImage,
-      productId: "house-blend",
-      categoryId: "coffee-beans",
-      title: "House blend",
-      description: `Two methods are primarily used to process coffee berries. The first, "wet" or "washed" process, has historically usually been carried out in Central America and areas of Africa. The flesh of the cherries is separated from the seeds and then the seeds are fermented – soaked in water for about two days. This softens the mucilage, which is a sticky pulp residue that is still attached to the seeds. Then this mucilage is washed off with water.`,
-      price: 14,
-   },
-   {
-      image: productImage,
-      productId: "light-roast",
-      categoryId: "coffee-beans",
-      title: "Light roast",
-      description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
-      price: 13,
-   },
-   {
-      image: productImage,
-      productId: "medium-roast",
-      categoryId: "coffee-beans",
-      title: "Medium roast",
-      description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
-      price: 11,
-   },
-   {
-      image: productImage,
-      productId: "coffee-grinder",
-      categoryId: "accessories",
-      title: "Coffee grinder",
-      description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
+      productId: "dior-j'adore",
+      categoryId: "",
+      title: "Dior J'Adore",
+      description: `Perfume is described in a musical metaphor as having three sets of notes, making the harmonious scent accord. The notes unfold over time, with the immediate impression of the top note leading to the deeper middle notes, and the base notes gradually appearing as the final stage. These notes are created carefully with knowledge of the evaporation process of the perfume.`,
       price: 100,
    },
    {
-      image: productImage,
-      productId: "coffee-cup",
-      categoryId: "accessories",
-      title: "Coffee cup",
-      description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
-      price: 50,
+      image: product2Image,
+      productId: "giorgio-armani",
+      categoryId: "",
+      title: "Gergio Armani",
+      description: `Perfume is described in a musical metaphor as having three sets of notes, making the harmonious scent accord. The notes unfold over time, with the immediate impression of the top note leading to the deeper middle notes, and the base notes gradually appearing as the final stage. These notes are created carefully with knowledge of the evaporation process of the perfume.`,
+      price: 120,
    },
    {
-      image: productImage,
-      productId: "mango-tea",
-      categoryId: "tea",
-      title: "Mango tea",
-      description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
-      price: 10,
+      image: product3Image,
+      productId: "coco-mademoiselle",
+      categoryId: "",
+      title: "Coco Mademoiselle",
+      description: `Perfume is described in a musical metaphor as having three sets of notes, making the harmonious scent accord. The notes unfold over time, with the immediate impression of the top note leading to the deeper middle notes, and the base notes gradually appearing as the final stage. These notes are created carefully with knowledge of the evaporation process of the perfume.`,
+      price: 200,
+   },
+   {
+      image: product4Image,
+      productId: "chloe-signature",
+      categoryId: "",
+      title: "Chloe Signature",
+      description: `Perfume is described in a musical metaphor as having three sets of notes, making the harmonious scent accord. The notes unfold over time, with the immediate impression of the top note leading to the deeper middle notes, and the base notes gradually appearing as the final stage. These notes are created carefully with knowledge of the evaporation process of the perfume.`,
+      price: 130,
+   },
+   {
+      image: product5Image,
+      productId: "lancome-cristal",
+      categoryId: "",
+      title: "Lancome Cristal",
+      description: `Perfume is described in a musical metaphor as having three sets of notes, making the harmonious scent accord. The notes unfold over time, with the immediate impression of the top note leading to the deeper middle notes, and the base notes gradually appearing as the final stage. These notes are created carefully with knowledge of the evaporation process of the perfume.`,
+      price: 110,
+   },
+   {
+      image: product6Image,
+      productId: "versace-eros",
+      categoryId: "",
+      title: "Versace Eros",
+      description: `Perfume is described in a musical metaphor as having three sets of notes, making the harmonious scent accord. The notes unfold over time, with the immediate impression of the top note leading to the deeper middle notes, and the base notes gradually appearing as the final stage. These notes are created carefully with knowledge of the evaporation process of the perfume.`,
+      price: 150,
+   },
+   {
+      image: product7Image,
+      productId: "chanel-5",
+      categoryId: "",
+      title: "Chanel 5",
+      description: `Perfume is described in a musical metaphor as having three sets of notes, making the harmonious scent accord. The notes unfold over time, with the immediate impression of the top note leading to the deeper middle notes, and the base notes gradually appearing as the final stage. These notes are created carefully with knowledge of the evaporation process of the perfume.`,
+      price: 160,
+   },
+   {
+      image: product8Image,
+      productId: "christian-dior",
+      categoryId: "",
+      title: "Christian Dior",
+      description: `Perfume is described in a musical metaphor as having three sets of notes, making the harmonious scent accord. The notes unfold over time, with the immediate impression of the top note leading to the deeper middle notes, and the base notes gradually appearing as the final stage. These notes are created carefully with knowledge of the evaporation process of the perfume.   `,
+      price: 120,
    },
 ];
 
