@@ -1,6 +1,6 @@
 import React from "react";
 import headerImage from "../assets/categories.jpeg";
-// import Header from "../components/Header/Header";
+import Header from "../components/Header/Header";
 
 function NotFound() {
    return (
