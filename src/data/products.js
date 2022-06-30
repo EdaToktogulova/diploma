@@ -4,8 +4,8 @@ import product3Image from "../assets/product3.jpeg";
 import product4Image from "../assets/product4.jpeg";
 import product5Image from "../assets/product5.jpeg";
 import product6Image from "../assets/product6.jpeg";
-// import product7Image from "../assets/product7.jpeg";
-// import product8Image from "../assets/product8.jpeg";
+import product7Image from "../assets/product7.jpeg";
+import product8Image from "../assets/product8.jpeg";
 
 const products = [
    {
