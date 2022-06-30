@@ -4,7 +4,7 @@ import classes from "./CartItem.module.css";
 import { decrement, increment, remove } from "../../../redux/cartSlice";
 
 export default function CartItem({ product, actions, quantity }) {
-   // const dispatch = useDispatch();
+   const dispatch = useDispatch();
 
    return (
       <div className={classes.CartItem}>
