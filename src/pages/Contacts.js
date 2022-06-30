@@ -1,14 +1,17 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/contacts.jpeg";
+// import headerImage from "../assets/contacts.jpeg";
 
 function Contacts() {
    return (
       <>
          <Header
-            title="Order your coffee!"
+            title="Us contact"
             image={headerImage}>
-            The two most economically important varieties of coffee plant are the Arabica and the Robusta; ~60% of the coffee produced worldwide is Arabica and ~40% is Robusta.[5] Arabica beans consist of 0.8–1.4% caffeine and Robusta beans consist of 1.7–4.0% caffeine.
+               A multi-brand store for rare cool contemporary perfume houses. Plus mix your own bespoke perfume at our lab. Samples. Find us at Covent Garden and online.
          </Header>
+         <div>Address: Kalverstraat 71, 1012 NZ Amsterdam</div>
+         <div>/</div>
+         <div>.</div>
       </>
    );
 }
