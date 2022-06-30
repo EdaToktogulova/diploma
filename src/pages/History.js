@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { getProducts } from "../data/products";
-// import { useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 export default function History() {
    const [orders, setOrders] = useState(null);
