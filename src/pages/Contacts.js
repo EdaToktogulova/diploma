@@ -9,13 +9,12 @@ function Contacts() {
             image={headerImage}>
                A multi-brand store for rare cool contemporary perfume houses. Plus mix your own bespoke perfume at our lab. Samples. Find us at Covent Garden and online.
          </Header>
-         <div>Address: Kalverstraat 71, 1012 NZ Amsterdam,
-         Kalverstraat 71, 1012 NZ Amsterdam
+         <div>Address: Kalverstraat 71, 1012 NZ Amsterdam
          </div>
-         <div>Address: Kalverstraat 71, 1012 NZ Amsterdam,
-         Kalverstraat 71, 1012 NZ Amsterdam
+         <div>
+               Amsterdam 71, 1012 NZ Kalverstraat 
          </div>
-         <div>/</div>
+         <div>+212 12 13 15 45</div>
          <div>.</div>
       </>
    );
