@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { start } from "../redux/authSlice";
 
+
 export default function Auth() {
    const dispatch = useDispatch();
    const { error, localId } = useSelector(store => store.auth);
