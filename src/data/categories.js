@@ -15,12 +15,12 @@ const categories = [
       image: teaImage,
       desciption: "Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh leaves of Camellia sinensis, an evergreen shrub native to China, India and other East Asian countries."
    },
-   // {
-   //    categoryId: "accessories",
-   //    title: "Accessories",
-   //    image: accessoriesImage,
-   //    desciption: "The best coffee accessories for hot and iced coffee drinks include burr grinders, water kettles, frothers, scales, and thermometers."
-   // },
+   {
+      categoryId: "accessories",
+      title: "Accessories",
+      image: accessoriesImage,
+      desciption: "The best coffee accessories for hot and iced coffee drinks include burr grinders, water kettles, frothers, scales, and thermometers."
+   },
 ];
 
 export function getCategories() {
