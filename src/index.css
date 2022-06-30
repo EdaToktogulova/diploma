@@ -3,12 +3,15 @@ body {
   font-family: 'Bree Serif', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .container {
@@ -17,3 +20,29 @@ code {
   padding: 0 1rem;
 }
 
+a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #000;
+  box-sizing: border-box;
+}
+
+input {
+  height: 40px;
+  width: 20%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+}
+
+button {
+  padding: 0 1rem;
+  margin: 1rem 1rem;
+  color: #000;
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 25px;
+  font-size: 1.4rem;
+}
