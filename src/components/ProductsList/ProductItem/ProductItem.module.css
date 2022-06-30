@@ -2,50 +2,53 @@
    width: 100%;
    object-fit: cover;
    object-position: center;
+   margin-bottom: 10px;
+   border-radius: 0.5rem;
 
-   border-radius: 2rem;
-   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-   z-index: 2;
+   transform: scale(1);
+   transition: 0.3s ease-in-out;
+
+}
+
+.ProductItem img:hover {
+   transform: scale(1.05);
 }
 
 .ProductItem {
    position: relative;
-   flex: 0 0 30%;
-   margin-bottom: 5rem;
+   flex: 0 0 335px;
+   margin: 0 auto;
+   margin-bottom: 2rem;
    margin-top: 1rem;
+   text-align: center;
 }
 
 .ProductItem a {
-   position: absolute;
-   bottom: -3.5rem;
-   left: 1.5rem;
-   right: 1.5rem;
-   z-index: 1;
-
-   background-color: rgb(63, 29, 5);
-   color: white;
-   font-weight: bold;
-   font-size: 1.3rem;
-   padding: .8rem 1rem 1.2rem;
+   color: #0b1c2c;
+   margin-top: 15px;
+   text-transform: lowercase;
+   text-decoration: none;
    text-align: center;
-   border-radius: 1.5rem;
-   border-top-left-radius: 0;
-   border-top-right-radius: 0;
-   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+   transition: 0.2s ease-in-out;
+   font-size: 1.5rem;
 }
 
-.ProductItem .price {
+.ProductItem a::before {
+   content: "";
    position: absolute;
-   top: -1.5rem;
-   z-index: 3;
-   right: 0;
+   width: 100%;
+   height: 1px;
+   border-radius: 4px;
+   background-color: #000000;
+   bottom: -5px;
+   left: 0;
+   transform-origin: right;
+}
 
-   background-color: rgb(63, 29, 5);
-   color: white;
-   font-weight: bold;
-   font-size: 1.3rem;
-   padding: 1rem;
-   text-align: center;
-   border-radius: 50%;
-   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+.ProductItem a:hover::before {
+   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+   transition: 0.3s ease-in;
+   cursor: pointer;
+   transform-origin: left;
+   transform: scaleX(1);
 }
