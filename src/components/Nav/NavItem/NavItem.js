@@ -1,5 +1,5 @@
 import { NavLink, useMatch } from "react-router-dom";
-import classes from "./NavItem.css";
+import classes from "./NavItem.module.css";
 
 function NavItem(props) {
    return (
