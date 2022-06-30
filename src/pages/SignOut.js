@@ -11,5 +11,5 @@ export default function SignOut() {
       navigate('/');
    }, [dispatch, navigate]);
 
-   return 'asd';
+   // return 'asd';
 }
